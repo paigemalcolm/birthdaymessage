@@ -296,7 +296,7 @@ window.requestAnimFrame = function () {
   
     var ifrm = document.createElement("iframe");
     // ifrm.setAttribute.src="../mp4/birthday.mp4";
-    ifrm.setAttribute("src", "media/song.mp4");
+    ifrm.setAttribute("src", "song.mp4");
     ifrm.style.width = `${w}px`;
     ifrm.style.height = `${h}px`;
     ifrm.style.border = 'none';
