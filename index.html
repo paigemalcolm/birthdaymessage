@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Chandler!</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Initial Candle Screen -->
+  <div id="candleScreen" class="container">
+    <img src="cupcake.webp" alt="Cupcake" class="cupcake">
+    <div class="candle">
+      <div class="flame" id="flame"></div>
+    </div>
+    <div id="message" class="message">Make a wish, then blow the candle!</div>
+    <div id="finalMessage" class="final-message"></div>
+  </div>
+
+  <!-- Birthday Celebration Screen -->
+  <div id="celebrationScreen" style="display: none;">
+    <div class='moon'>
+      <div class='crater1'></div>
+      <div class='crater2'></div>
+      <div class='crater3'></div>
+    </div>
+    <div id="sea"></div>
+    <div id="beach"></div>
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffreebackground%2F3d-purple-billboard-advertising-poster_5793130.html&psig=AOvVaw1nHtW5MehwR5eiDfLLnN8g&ust=1721406191416000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKiLzIuAsYcDFQAAAAAdAAAAABAE" alt="Jumping-people" id="people" />
+    <div id="merrywrap" class="merrywrap">
+      <div class="giftbox">
+        <div class="cover">
+          <div></div>
+        </div>
+        <div class="box"></div>
+      </div>
+      <div class="icons">
+        <div class="row">
+          <span>H</span>
+          <span>a</span>
+          <span>v</span>
+          <span>e</span>
+        </div>
+        <div class="row">
+          <span>A</span>
+          <span>n</span>
+          <span>&nbsp;</span>
+          <span>A</span>
+          <span>m</span>
+          <span>a</span>
+          <span>z</span>
+          <span>i</span>
+          <span>n</span>
+          <span>g</span>
+        </div>
+        <div class="row">
+          <span>D</span>
+          <span>a</span>
+          <span>y</span>
+          <span>!</span>
+        </div>
+      </div>
+    </div>
+    <div class="dateB">
+      <span id="days"></span><br/>
+      <span id="hours"></span><br/>
+      <span id="minutes"></span><br/>
+      <span id="seconds"></span>
+    </div>
+    <div id="video"></div>
+    <div id="fireworks-container"></div>
+    <canvas id="canvas"></canvas>
+    <div id="birthdayMessage" class="birthday-message">
+      Happy 22nd birthday Chandler! I wish this year is as enjoyable as the last. Even though you’re in buck fuck Milwaukee, I hope you’re able to enjoy your special day and able to live it up being young and turnt. Hope you take 22 shots on me (okay that might be OD but I need at least 21 (; ).<br/><br/>
+      To all the good times and the bad times, to my television buddy, to my fashionista. Happy Birthday Chandler 🤍
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/fireworks-js@2/dist/fireworks.umd.js"></script>
+  <script src="script.js"></script>
+  <script src="home.js"></script>
+</body>
+</html>
